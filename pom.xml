@@ -13,9 +13,7 @@
         <jettyVersion>7.2.0.v20101020</jettyVersion>
     </properties>
 
-    <modules>
-        <module>src/integration/Xebium</module>
-    </modules>
+
 
     <dependencies>
         <dependency>
