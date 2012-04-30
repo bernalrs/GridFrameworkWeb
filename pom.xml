@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
-    <artifactId>ByhirasWeb</artifactId>
+    <artifactId>GridFrameworkWeb</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>GridFrameworkWeb</name>
