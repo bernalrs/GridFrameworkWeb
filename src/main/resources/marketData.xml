@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<org.example.simulator.MarketData>
+    <success>true</success>
+    <message>Loaded</message>
+    <data>
+        <org.example.model.Stock>
+            <company>3m Co</company>
+            <price>71.72</price>
+            <closePrice>71.72</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Alcoa Inc</company>
+            <price>29.01</price>
+            <closePrice>29.01</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Altria Group Inc</company>
+            <price>83.81</price>
+            <closePrice>83.81</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>American Express Company</company>
+            <price>52.55</price>
+            <closePrice>52.55</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>American International Group, Inc.</company>
+            <price>64.13</price>
+            <closePrice>64.13</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Golddman Sachs Int</company>
+            <price>100.61</price>
+            <closePrice>100.61</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Boeing Co.</company>
+            <price>75.43</price>
+            <closePrice>75.43</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Caterpillar Inc.</company>
+            <price>67.27</price>
+            <closePrice>67.27</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Citigroup, Inc.</company>
+            <price>49.37</price>
+            <closePrice>49.37</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>E.I. du Pont de Nemours and Company</company>
+            <price>40.48</price>
+            <closePrice>40.48</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Exxon Mobil Corp</company>
+            <price>68.10</price>
+            <closePrice>68.10</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>General Electric Company</company>
+            <price>34.14</price>
+            <closePrice>34.14</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>General Motors Corporation</company>
+            <price>0.27</price>
+            <closePrice>0.27</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Hewlett-Packard Co.</company>
+            <price>36.53</price>
+            <closePrice>36.53</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Honeywell Intl Inc</company>
+            <price>38.77</price>
+            <closePrice>38.77</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Intel Corporation</company>
+            <price>19.88</price>
+            <closePrice>19.88</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>International Business Machines</company>
+            <price>81.41</price>
+            <closePrice>81.41</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Johnson &amp; Johnson</company>
+            <price>64.72</price>
+            <closePrice>64.72</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>JP Morgan &amp; Chase &amp; Co</company>
+            <price>45.73</price>
+            <closePrice>45.73</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>McDonald s Corporation</company>
+            <price>36.76</price>
+            <closePrice>36.76</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Merck &amp; Co., Inc.</company>
+            <price>40.96</price>
+            <closePrice>40.96</closePrice>
+            <change>0.00</change>
+            <pctChange>1.01</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Microsoft Corporation</company>
+            <price>25.84</price>
+            <closePrice>25.84</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Pfizer Inc</company>
+            <price>27.96</price>
+            <closePrice>27.96</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>The Coca-Cola Company</company>
+            <price>29.00</price>
+            <closePrice>29.00</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>The Home Depot, Inc.</company>
+            <price>34.64</price>
+            <closePrice>34.64</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>The Procter &amp; Gamble Company</company>
+            <price>61.91</price>
+            <closePrice>61.91</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>United Technologies Corporation</company>
+            <price>63.26</price>
+            <closePrice>63.26</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>SAC Capital Management</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Verizon Communications</company>
+            <price>35.57</price>
+            <closePrice>35.57</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>Moore</fund>
+        </org.example.model.Stock>
+        <org.example.model.Stock>
+            <company>Wal-Mart Stores Inc.</company>
+            <price>45.45</price>
+            <closePrice>45.45</closePrice>
+            <change>0.00</change>
+            <pctChange>0.00</pctChange>
+            <lastChange>9/1 12:00am</lastChange>
+            <fund>Moore</fund>
+        </org.example.model.Stock>
+    </data>
+</org.example.simulator.MarketData>

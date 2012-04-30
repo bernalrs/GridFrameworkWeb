@@ -14,6 +14,7 @@ Ext.define('Company', {
        {name: 'company'},
        {name: 'fund'},
        {name: 'price',      type: 'float', convert: null,     defaultValue: undefined},
+       {name: 'closePrice', type: 'float', convert: null,     defaultValue: undefined},
        {name: 'change',     type: 'float', convert: null,     defaultValue: undefined},
        {name: 'pctChange',  type: 'float', convert: null,     defaultValue: undefined},
        {name: 'lastChange', type: 'date',  dateFormat: 'n/j h:ia', defaultValue: undefined}
@@ -31,11 +32,21 @@ Ext.onReady(function() {
      * Custom function used for column renderer
      * @param {Object} val
      */
+    function price(val, rec) {
+        var value = Math.round(val*Math.pow(10,2))/Math.pow(10,2);
+        return '<div style="color:blue;font-weight:500;">' + value + '</div>';
+    }
+
+    /**
+     * Custom function used for column renderer
+     * @param {Object} val
+     */
     function change(val) {
+        var value = Math.round(val*Math.pow(10,2))/Math.pow(10,2);
         if (val > 0) {
-            return '<span style="color:green;">' + val + '</span>';
+            return '<div style="color:green;bold:300"><img src="./lib/ext/examples/shared/icons/fam/positiveArrow.gif"/> '+ value + '</div>';
         } else if (val < 0) {
-            return '<span style="color:red;">' + val + '</span>';
+            return '<div style="color:red;bold:300""><img src="./lib/ext/examples/shared/icons/fam/negativeArrow.gif"/> '+ value + '</div>';
         }
         return val;
     }
@@ -45,10 +56,11 @@ Ext.onReady(function() {
      * @param {Object} val
      */
     function pctChange(val) {
+        var value = Math.round(val*Math.pow(10,2))/Math.pow(10,2);
         if (val > 0) {
-            return '<span style="color:green;">' + val + '%</span>';
+            return '<div style="background-color:#BDECB6;color:green;bold:300">' + value + '%</div>';
         } else if (val < 0) {
-            return '<span style="color:red;">' + val + '%</span>';
+            return '<div style="background-color:#EC6363;color:#530D0D;bold:300">' + value + '%</div>';
         }
         return val;
     }
@@ -57,7 +69,7 @@ Ext.onReady(function() {
         autoLoad: true,
         autoSync: true,
         model: 'Company',
-        sorters: ['company', 'price', 'change', 'pctChange', 'lastChange'],
+        sorters: ['company', 'price', 'closePrice', 'change', 'pctChange', 'lastChange'],
         groupField: 'fund',
         proxy: {
             type: 'rest',
@@ -80,20 +92,26 @@ Ext.onReady(function() {
         features: [groupingFeature],
         columns: [
             {
-                 text     : 'HedgeFund',
-                 width    : 120,
+                 text     : 'Hedge Fund',
+                 width    : 150,
                  dataIndex: 'fund'
             },{
                 text     : 'Company',
-                flex     : 1,
+                width     : 200,
                 sortable : false,
                 dataIndex: 'company'
+            },{
+                text     : 'Close',
+                flex     : 50,
+                sortable : false,
+                dataIndex: 'closePrice',
+                renderer : 'usMoney'
             },
             {
                 text     : 'Price',
-                width    : 75,
+                width    : 55,
                 sortable : true,
-                renderer : 'usMoney',
+                renderer:  price,
                 dataIndex: 'price'
             },
             {
@@ -122,7 +140,7 @@ Ext.onReady(function() {
                 xtype: 'actioncolumn',
                 width: 50,
                 items: [{
-                    icon   : 'lib/examples/shared/icons/fam/delete.gif',  // Use a URL in the icon config
+                    icon   : 'lib/ext/examples/shared/icons/fam/delete.gif',  // Use a URL in the icon config
                     tooltip: 'Instruct Fund To Sell stock',
                     handler: function(grid, rowIndex, colIndex) {
                         var rec = store.getAt(rowIndex);
@@ -143,15 +161,24 @@ Ext.onReady(function() {
                         alert((rec.get('change') < 0 ? "Hold " : "Buy ") + rec.get('company'));
                     }
                 }]
+        }],
+        fbar  : [ {
+            text:'Clear Grouping',
+            iconCls: 'icon-clear-group',
+            handler : function(){
+                groupingFeature.disable();
             }
-        ],
+        }],
         height: 350,
-        width: 600,
+        width: 800,
         title: 'Companies Grid',
         renderTo: 'grid-example',
         viewConfig: {
             stripeRows: true,
             enableTextSelection: true
-        }
+        },
     });
+
+    var runner = new Ext.util.TaskRunner();
+    runner.start({run: function() { store.load() }, interval: 2000 });
 });
