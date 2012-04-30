@@ -1,0 +1,11 @@
+| script | selenium driver fixture |
+| start browser | firefox | on url | http://www.google.com/ |
+| do | open | on | / |
+| do | mouseOver | on | //span[text()='Company']/.. |
+| ensure | do | click | on | id=gridcolumn-1012-triggerEl |
+| ensure | do | click | on | id=gridcolumn-1012-triggerEl |
+| ensure | do | click | on | //span[text()='Company']/../div |
+| do | mouseOver | on | //span[text()='Group By This Field'] |
+| ensure | do | click | on | //span[text()='Group By This Field']/.. |
+| ensure | do | click | on | //button/span[text()='Clear Grouping'] |
+| stop browser |

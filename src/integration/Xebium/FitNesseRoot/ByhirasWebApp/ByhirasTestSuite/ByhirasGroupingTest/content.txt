@@ -1,0 +1,10 @@
+!contents
+| script | selenium driver fixture |
+| start browser | firefox | on url | http://localhost:8080/ |
+| do | open | on | / |
+| do | pause | on |  | with | 3000 |
+| do | mouseOver | on | //span[text()='Company']/.. |
+| ensure | do | click | on | //span[text()='Company']/../div |
+| do | mouseOver | on | //span[text()='Group By This Field'] |
+| ensure | do | click | on | //span[text()='Group By This Field'] |
+| stop browser |
