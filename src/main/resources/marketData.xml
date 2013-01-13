@@ -10,7 +10,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Alcoa Inc</company>
@@ -19,7 +19,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Altria Group Inc</company>
@@ -28,7 +28,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>American Express Company</company>
@@ -37,7 +37,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>American International Group, Inc.</company>
@@ -46,7 +46,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Golddman Sachs Int</company>
@@ -55,7 +55,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Boeing Co.</company>
@@ -64,7 +64,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Caterpillar Inc.</company>
@@ -73,7 +73,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Citigroup, Inc.</company>
@@ -82,7 +82,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>E.I. du Pont de Nemours and Company</company>
@@ -91,7 +91,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Exxon Mobil Corp</company>
@@ -100,7 +100,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>General Electric Company</company>
@@ -109,7 +109,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>General Motors Corporation</company>
@@ -118,7 +118,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Hewlett-Packard Co.</company>
@@ -127,7 +127,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Honeywell Intl Inc</company>
@@ -136,7 +136,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Intel Corporation</company>
@@ -145,7 +145,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>International Business Machines</company>
@@ -154,7 +154,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Johnson &amp; Johnson</company>
@@ -163,7 +163,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>JP Morgan &amp; Chase &amp; Co</company>
@@ -172,7 +172,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>McDonald s Corporation</company>
@@ -181,7 +181,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Merck &amp; Co., Inc.</company>
@@ -190,7 +190,7 @@
             <change>0.00</change>
             <pctChange>1.01</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Microsoft Corporation</company>
@@ -199,7 +199,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Pfizer Inc</company>
@@ -208,7 +208,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>The Coca-Cola Company</company>
@@ -217,7 +217,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>The Home Depot, Inc.</company>
@@ -226,7 +226,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Small Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>The Procter &amp; Gamble Company</company>
@@ -235,7 +235,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Small Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>United Technologies Corporation</company>
@@ -244,7 +244,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>SAC Capital Management</fund>
+            <fund>North America Small Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Verizon Communications</company>
@@ -253,7 +253,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>Moore</fund>
+            <fund>North America Small Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <company>Wal-Mart Stores Inc.</company>
@@ -262,7 +262,7 @@
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
-            <fund>Moore</fund>
+            <fund>North America Small Cap Portfolio</fund>
         </org.example.model.Stock>
     </data>
 </org.example.simulator.MarketData>

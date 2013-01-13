@@ -23,6 +23,7 @@ Ext.define('Company', {
 });
 
 Ext.onReady(function() {
+
     Ext.QuickTips.init();
     
     // setup the state provider, all state information will be saved to a cookie
@@ -82,19 +83,21 @@ Ext.onReady(function() {
     });
 
     var groupingFeature = Ext.create('Ext.grid.feature.Grouping',{
-            groupHeaderTpl: 'HedgeFund: {name} ({rows.length} Position{[values.rows.length > 1 ? "s" : ""]})'
+            groupHeaderTpl: 'Portfolio: {name} ({rows.length} Position{[values.rows.length > 1 ? "s" : ""]})'
         });
 
     // create the Grid
     var grid = Ext.create('Ext.grid.Panel', {
         store: store,
         stateId: 'stateGrid',
+        invalidateScrollerOnRefresh: false,
         features: [groupingFeature],
         columns: [
             {
                  text     : 'Hedge Fund',
                  width    : 150,
-                 dataIndex: 'fund'
+                 dataIndex: 'fund',
+                 hidden: true
             },{
                 text     : 'Company',
                 width     : 200,
@@ -172,11 +175,16 @@ Ext.onReady(function() {
         height: 350,
         width: 800,
         title: 'Companies Grid',
-        renderTo: 'grid-example',
         viewConfig: {
             stripeRows: true,
             enableTextSelection: true
-        },
+        }
+    });
+
+    var fitLayout = new Ext.Panel({
+        layout:'fit',
+        renderTo: 'grid-example',
+        items: grid
     });
 
     var runner = new Ext.util.TaskRunner();
