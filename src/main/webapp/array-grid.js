@@ -172,9 +172,7 @@ Ext.onReady(function() {
                 groupingFeature.disable();
             }
         }],
-        height: 350,
-        width: 800,
-        title: 'Companies Grid',
+        title: 'Underlying Security Selector',
         viewConfig: {
             stripeRows: true,
             enableTextSelection: true
