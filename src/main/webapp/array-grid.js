@@ -179,6 +179,8 @@ Ext.onReady(function() {
         }
     });
 
+
+
     var fitLayout = new Ext.Panel({
         layout:'fit',
         renderTo: 'grid-example',
