@@ -7,6 +7,7 @@
             <company>3m Co</company>
             <price>71.72</price>
             <closePrice>71.72</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -16,6 +17,7 @@
             <company>Alcoa Inc</company>
             <price>29.01</price>
             <closePrice>29.01</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -25,6 +27,7 @@
             <company>Altria Group Inc</company>
             <price>83.81</price>
             <closePrice>83.81</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -34,6 +37,7 @@
             <company>American Express Company</company>
             <price>52.55</price>
             <closePrice>52.55</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -43,6 +47,7 @@
             <company>American International Group, Inc.</company>
             <price>64.13</price>
             <closePrice>64.13</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -52,6 +57,7 @@
             <company>Golddman Sachs Int</company>
             <price>100.61</price>
             <closePrice>100.61</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -61,6 +67,7 @@
             <company>Boeing Co.</company>
             <price>75.43</price>
             <closePrice>75.43</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -70,6 +77,7 @@
             <company>Caterpillar Inc.</company>
             <price>67.27</price>
             <closePrice>67.27</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -79,6 +87,7 @@
             <company>Citigroup, Inc.</company>
             <price>49.37</price>
             <closePrice>49.37</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -88,6 +97,7 @@
             <company>E.I. du Pont de Nemours and Company</company>
             <price>40.48</price>
             <closePrice>40.48</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -97,6 +107,7 @@
             <company>Exxon Mobil Corp</company>
             <price>68.10</price>
             <closePrice>68.10</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -106,6 +117,7 @@
             <company>General Electric Company</company>
             <price>34.14</price>
             <closePrice>34.14</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -115,6 +127,7 @@
             <company>General Motors Corporation</company>
             <price>0.27</price>
             <closePrice>0.27</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -124,6 +137,7 @@
             <company>Hewlett-Packard Co.</company>
             <price>36.53</price>
             <closePrice>36.53</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -133,6 +147,7 @@
             <company>Honeywell Intl Inc</company>
             <price>38.77</price>
             <closePrice>38.77</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -142,6 +157,7 @@
             <company>Intel Corporation</company>
             <price>19.88</price>
             <closePrice>19.88</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -151,6 +167,7 @@
             <company>International Business Machines</company>
             <price>81.41</price>
             <closePrice>81.41</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -160,6 +177,7 @@
             <company>Johnson &amp; Johnson</company>
             <price>64.72</price>
             <closePrice>64.72</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -169,6 +187,7 @@
             <company>JP Morgan &amp; Chase &amp; Co</company>
             <price>45.73</price>
             <closePrice>45.73</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -178,6 +197,7 @@
             <company>McDonald s Corporation</company>
             <price>36.76</price>
             <closePrice>36.76</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -187,6 +207,7 @@
             <company>Merck &amp; Co., Inc.</company>
             <price>40.96</price>
             <closePrice>40.96</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>1.01</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -196,6 +217,7 @@
             <company>Microsoft Corporation</company>
             <price>25.84</price>
             <closePrice>25.84</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -205,6 +227,7 @@
             <company>Pfizer Inc</company>
             <price>27.96</price>
             <closePrice>27.96</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -214,6 +237,7 @@
             <company>The Coca-Cola Company</company>
             <price>29.00</price>
             <closePrice>29.00</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -223,6 +247,7 @@
             <company>The Home Depot, Inc.</company>
             <price>34.64</price>
             <closePrice>34.64</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -232,6 +257,7 @@
             <company>The Procter &amp; Gamble Company</company>
             <price>61.91</price>
             <closePrice>61.91</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -241,6 +267,7 @@
             <company>United Technologies Corporation</company>
             <price>63.26</price>
             <closePrice>63.26</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -250,6 +277,7 @@
             <company>Verizon Communications</company>
             <price>35.57</price>
             <closePrice>35.57</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>
@@ -259,6 +287,7 @@
             <company>Wal-Mart Stores Inc.</company>
             <price>45.45</price>
             <closePrice>45.45</closePrice>
+            <quantity>100</quantity>
             <change>0.00</change>
             <pctChange>0.00</pctChange>
             <lastChange>9/1 12:00am</lastChange>

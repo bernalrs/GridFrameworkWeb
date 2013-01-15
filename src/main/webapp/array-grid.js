@@ -14,6 +14,7 @@ Ext.define('Company', {
        {name: 'company'},
        {name: 'fund'},
        {name: 'price',      type: 'float', convert: null,     defaultValue: undefined},
+       {name: 'quantity',   type: 'float', convert: null,     defaultValue: undefined},
        {name: 'closePrice', type: 'float', convert: null,     defaultValue: undefined},
        {name: 'change',     type: 'float', convert: null,     defaultValue: undefined},
        {name: 'pctChange',  type: 'float', convert: null,     defaultValue: undefined},
@@ -101,23 +102,26 @@ Ext.onReady(function() {
             },{
                 text     : 'Company',
                 width     : 200,
-                sortable : false,
+                sortable : true,
                 dataIndex: 'company'
             },{
                 text     : 'Close',
                 flex     : 50,
-                sortable : false,
+                sortable : true,
                 dataIndex: 'closePrice',
                 renderer : 'usMoney'
-            },
-            {
+            },{
+                text     : 'Quantity',
+                width    : 55,
+                sortable : true,
+                dataIndex: 'quantity'
+            },{
                 text     : 'Price',
                 width    : 55,
                 sortable : true,
                 renderer:  price,
                 dataIndex: 'price'
-            },
-            {
+            },{
                 text     : 'Change',
                 width    : 75,
                 sortable : true,
@@ -139,7 +143,7 @@ Ext.onReady(function() {
                 dataIndex: 'lastChange'
             },{
                 menuDisabled: true,
-                sortable: false,
+                sortable: true,
                 xtype: 'actioncolumn',
                 width: 50,
                 items: [{

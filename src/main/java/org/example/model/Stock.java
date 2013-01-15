@@ -16,6 +16,7 @@ public class Stock {
     private String company;
     private Double price;
     private Double closePrice;
+    private Double quantity;
     private Double change;
     private Double pctChange;
     private String lastChange;
@@ -76,6 +77,9 @@ public class Stock {
     public void setClosePrice(Double closePrice) {
         this.closePrice = closePrice;
     }
+
+
+
 
     @Override
     public String toString(){
