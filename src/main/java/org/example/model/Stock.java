@@ -13,6 +13,7 @@ import org.apache.commons.lang.builder.ReflectionToStringBuilder;
  */
 public class Stock {
 
+    private String symbol;
     private String company;
     private Double price;
     private Double closePrice;
@@ -21,6 +22,22 @@ public class Stock {
     private Double pctChange;
     private String lastChange;
     private String fund;
+
+    public String getSymbol() {
+        return symbol;
+    }
+
+    public void setSymbol(String symbol) {
+        this.symbol = symbol;
+    }
+
+    public Double getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(Double quantity) {
+        this.quantity = quantity;
+    }
 
     public Double getPrice() {
         return price;

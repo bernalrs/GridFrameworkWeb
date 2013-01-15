@@ -2,17 +2,16 @@ package org.example.simulator;
 
 import org.example.model.Stock;
 
-import java.util.List;
+import java.io.IOException;
 
 /**
  * Created with IntelliJ IDEA.
  * User: User
  * Date: 15/01/13
- * Time: 17:22
+ * Time: 17:24
  * To change this template use File | Settings | File Templates.
  */
-public interface MarketData {
-    List<Stock> getData();
-
-    void getNextTicket();
+public interface PriceRetriever
+{
+    public Stock getStock(String symbol) throws IOException;
 }

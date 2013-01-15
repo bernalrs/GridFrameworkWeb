@@ -1,7 +1,8 @@
 package org.example.dao;
 
-import org.example.simulator.MarketData;
+import org.example.simulator.MarketDataImpl;
 import com.thoughtworks.xstream.XStream;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
@@ -16,19 +17,19 @@ public class DataLoader {
 
     private final XStream xstream;
     private final String file;
-    private static MarketData marketData;
+    private static MarketDataImpl marketData;
 
     public DataLoader(String file){
         xstream = new XStream();
         this.file = file;
     }
 
-    public MarketData getMarketData(){
+    public MarketDataImpl getMarketData(){
         try{
             synchronized(DataLoader.class){
                 if(marketData == null){
                     FileInputStream fis = new FileInputStream(file);
-                    marketData = (MarketData) xstream.fromXML(fis);
+                    marketData = (MarketDataImpl) xstream.fromXML(fis);
                 }
             }
         }catch(FileNotFoundException e){

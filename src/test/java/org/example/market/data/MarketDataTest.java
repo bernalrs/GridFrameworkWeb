@@ -2,6 +2,7 @@ package org.example.market.data;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -18,7 +19,11 @@ public class MarketDataTest {
     @Test
     public void getStockQuoteFromWebsite() throws IOException {
         Document doc = Jsoup.connect("http://www.investopedia.com/markets/stocks/ibm").get();
-        String title = doc.title();
+        Elements table = doc.getElementById("MarketsSummary").getElementsByTag("table");
+        Elements td = table.select("td");
+        System.out.println("---Start---");
+        System.out.println(td.get(1).text());
+
     }
 
 }

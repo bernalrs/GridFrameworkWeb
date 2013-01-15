@@ -5,316 +5,147 @@
     <data>
         <org.example.model.Stock>
             <symbol>MMM</symbol>
-            <company>3m Co</company>
             <quantity>100</quantity>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>AA</symbol>
-            <company>Alcoa Inc</company>
-            <price>29.01</price>
-            <closePrice>29.01</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>MO</symbol>
-            <company>Altria Group Inc</company>
-            <price>83.81</price>
-            <closePrice>83.81</closePrice>
-            <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
+            <quantity>120</quantity>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>AXP</symbol>
-            <company>American Express Company</company>
-            <price>52.55</price>
-            <closePrice>52.55</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>AIG</symbol>
-            <company>American International Group, Inc.</company>
-            <price>64.13</price>
-            <closePrice>64.13</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>GS</symbol>
-            <company>Golddman Sachs Int</company>
-            <price>100.61</price>
-            <closePrice>100.61</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
-            <symbol>BA</symbol>
-            <company>Boeing Co.</company>
-            <price>75.43</price>
-            <closePrice>75.43</closePrice>
+            <symbol>BA</symbol>>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>CAT</symbol>
-            <company>Caterpillar Inc.</company>
-            <price>67.27</price>
-            <closePrice>67.27</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>C</symbol>
-            <company>Citigroup, Inc.</company>
-            <price>49.37</price>
-            <closePrice>49.37</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>DD</symbol>
-            <company>E.I. du Pont de Nemours and Company</company>
-            <price>40.48</price>
-            <closePrice>40.48</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>XOM</symbol>
-            <company>Exxon Mobil Corp</company>
-            <price>68.10</price>
-            <closePrice>68.10</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>GE</symbol>
-            <company>General Electric Company</company>
-            <price>34.14</price>
-            <closePrice>34.14</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>GM</symbol>
-            <company>General Motors Corporation</company>
-            <price>0.27</price>
-            <closePrice>0.27</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>HPQ</symbol>
-            <company>Hewlett-Packard Co.</company>
-            <price>36.53</price>
-            <closePrice>36.53</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Large Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>HON</symbol>
-            <company>Honeywell Intl Inc</company>
-            <price>38.77</price>
-            <closePrice>38.77</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>INTC</symbol>
-            <company>Intel Corporation</company>
-            <price>19.88</price>
-            <closePrice>19.88</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>IBM</symbol>
-            <company>International Business Machines</company>
-            <price>81.41</price>
-            <closePrice>81.41</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>JNJ</symbol>
-            <company>Johnson &amp; Johnson</company>
-            <price>64.72</price>
-            <closePrice>64.72</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>JPM</symbol>
-            <company>JP Morgan &amp; Chase &amp; Co</company>
-            <price>45.73</price>
-            <closePrice>45.73</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>MCD</symbol>
-            <company>McDonald s Corporation</company>
-            <price>36.76</price>
-            <closePrice>36.76</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>MRK</symbol>
-            <company>Merck &amp; Co., Inc.</company>
-            <price>40.96</price>
-            <closePrice>40.96</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>1.01</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>MSFT</symbol>
-            <company>Microsoft Corporation</company>
-            <price>25.84</price>
-            <closePrice>25.84</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
-            <symbol>PFE</symbol>
-            <company>Pfizer Inc</company>
-            <price>27.96</price>
-            <closePrice>27.96</closePrice>
+            <symbol>PFE</symbol>>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>KO</symbol>
-            <company>The Coca-Cola Company</company>
-            <price>29.00</price>
-            <closePrice>29.00</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Mid Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>HD</symbol>
-            <company>The Home Depot, Inc.</company>
-            <price>34.64</price>
-            <closePrice>34.64</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Small Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>PG</symbol>
-            <company>The Procter &amp; Gamble Company</company>
-            <price>61.91</price>
-            <closePrice>61.91</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Small Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>UTX</symbol>
-            <company>United Technologies Corporation</company>
-            <price>63.26</price>
-            <closePrice>63.26</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Small Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>VZ</symbol>
-            <company>Verizon Communications</company>
-            <price>35.57</price>
-            <closePrice>35.57</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Small Cap Portfolio</fund>
         </org.example.model.Stock>
         <org.example.model.Stock>
             <symbol>WMT</symbol>
-            <company>Wal-Mart Stores Inc.</company>
-            <price>45.45</price>
-            <closePrice>45.45</closePrice>
             <quantity>100</quantity>
-            <change>0.00</change>
-            <pctChange>0.00</pctChange>
-            <lastChange>9/1 12:00am</lastChange>
             <fund>North America Small Cap Portfolio</fund>
         </org.example.model.Stock>
     </data>

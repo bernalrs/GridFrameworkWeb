@@ -1,8 +1,8 @@
 package org.example;
  
 import org.example.dao.DataLoader;
-import org.example.simulator.MarketData;
-import org.example.simulator.Simulator;
+import org.example.simulator.MarketDataImpl;
+import org.example.simulator.SimulatorImpl;
 import org.json.JSONException;
 
 import java.io.IOException;
@@ -19,8 +19,8 @@ public class HelloServlet extends HttpServlet
         // Then we would use a JSON library to conver the Object hierarchy into a valid json string.
         try{
             DataLoader loader = new DataLoader("./src/main/resources/marketData.xml");
-            MarketData marketdata = loader.getMarketData();
-            Simulator simulator = new Simulator(3);
+            MarketDataImpl marketdata = loader.getMarketData();
+            SimulatorImpl simulator = new SimulatorImpl(3);
             simulator.getNextTicker(marketdata);
             String json = marketdata.toJson();
             response.setContentType("application/json");
