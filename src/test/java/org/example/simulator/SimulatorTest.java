@@ -30,8 +30,6 @@ public class SimulatorTest {
     @Test
     public void testGetNextTicker() throws Exception {
 
-
-
         long seed = -3216658182142127913L;
         //DataLoader loader = new DataLoader("./src/test/resources/xml.xml");
         PriceRetriever mockedPriceRetriever = createMock(PriceRetriever.class);

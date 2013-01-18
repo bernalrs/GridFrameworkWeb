@@ -46,12 +46,25 @@ public class SimulatorImpl implements Simulator {
             for(Stock stock : stockList){
                 hasChange = random.nextBoolean();
                 if(hasChange){
-                    double price = stock.getPrice();
-                    double closePrice = stock.getClosePrice();
+                    double quantity = stock.getQuantity();
+                    double price = stock.getLastPrice();
+                    double openPrice = stock.getOpenPrice();
                     double change = getPriceChange(random.nextBoolean(), random.nextInt(step),random.nextDouble() );
-                    stock.setPrice(closePrice + change );
+                    stock.setLastPrice(openPrice + change );
                     stock.setChange(change);
-                    stock.setPctChange(change / closePrice);
+                    stock.setChangePercentage(change / openPrice);
+                    double marketValue = quantity * price;
+                    stock.setMarketValue(marketValue);
+                    double costBasis = stock.getCostBasis();
+                    double purchasedPrice = (costBasis - 19.99) / quantity;
+                    double gain = marketValue - (purchasedPrice * quantity);
+                    double gainpp = (gain * 100) / (costBasis -19.99);
+                    stock.setGain(gain);
+                    stock.setGainPercentage(gainpp);
+                    stock.setOverallReturn(gainpp - 19.99);
+                    //double gainPercentage = price - purchasedPrice / purchasedPrice;
+                    //stock.setGainPercentage(gainPercentage);
+                    stock.setPurchasedPrice(purchasedPrice);
                 }
             }
         }

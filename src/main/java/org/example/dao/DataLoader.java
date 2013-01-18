@@ -1,5 +1,6 @@
 package org.example.dao;
 
+import org.example.model.Stock;
 import org.example.simulator.MarketDataImpl;
 import com.thoughtworks.xstream.XStream;
 
@@ -29,6 +30,8 @@ public class DataLoader {
             synchronized(DataLoader.class){
                 if(marketData == null){
                     FileInputStream fis = new FileInputStream(file);
+                    xstream.alias("MarketData", MarketDataImpl.class);
+                    xstream.alias("Stock", Stock.class);
                     marketData = (MarketDataImpl) xstream.fromXML(fis);
                 }
             }
